@@ -34,7 +34,7 @@ authors = [
 ]
 
 license = "MPL-2.0"
-readme = "README.md"
+readme = "../README.md"
 categories = ["command-line-utilities", "games"]
 keywords = ["minecraft", "server-manager", "mod-manager", "modrinth", "curseforge"]
 
@@ -83,3 +83,7 @@ rand = "0.10"
 codegen-units = 1
 strip = true
 lto = "fat"
+
+[[bin]]
+name = "micat"
+path = "src/bin/micat.rs"
