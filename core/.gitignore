@@ -1,0 +1,10 @@
+/target
+/.idea
+/.vscode
+/out
+/perf
+/tests/configs/running
+/tests/mods
+/tests/md_modpack
+/tests/cf_modpack
+**/.DS_Store
