@@ -3,9 +3,9 @@ use std::path::PathBuf;
 use clap::{Parser, Subcommand, ValueEnum};
 use libium::config::{self, structs::{Config, ModLoader, Profile}};
 
-/// Micat CLI
+/// MICAT (Minecraft Instance Control and Automation Toolkit) CLI
 #[derive(Parser, Debug)]
-#[command(name = "micat", about = "Micat: dual Minecraft server manager on top of libium")]
+#[command(name = "micat", about = "MICAT – Minecraft Instance Control and Automation Toolkit on top of libium")]
 struct MicatCli {
     #[command(subcommand)]
     command: Command,

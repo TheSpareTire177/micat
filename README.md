@@ -1,6 +1,6 @@
-# Micat
+# MICAT – Minecraft Instance Control and Automation Toolkit
 
-Micat is a dual Minecraft server management suite built on top of the Ferium/libium codebase.
+MICAT is a dual Minecraft server management suite built on top of the Ferium/libium codebase.
 
 ## Layout
 - `core/` – Rust-based core application (forked and adapted from Ferium) that runs directly on the host. It is responsible for modpack management, automation, and orchestration of the Dockerized Minecraft servers.
